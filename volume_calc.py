@@ -9,5 +9,7 @@ elif total_length <= 120:
     total_price = 10000
 elif total_length <= 160:
     total_price = 13000
+else:
+    total_price = "범위를 넘음"
 print(total_price)
 
